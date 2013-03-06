@@ -114,4 +114,5 @@ describe User do
 			@user.reload.email.should == mixed_case_email.downcase
 		end
 	end
+
 end 
